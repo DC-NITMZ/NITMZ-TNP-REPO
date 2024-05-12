@@ -1135,7 +1135,7 @@ section {
 
 
 .team-container {
-  // background-color: aqua;
+   background-color: aqua;
   text-align: center;
 }
 
@@ -1196,7 +1196,7 @@ section {
   position: absolute;
   bottom: 0;
   background: #f1eeee;
-  // opacity: 0.7;
+   opacity: 0.7;
   transition: transform 0.5s;
   transform: scaleY(0);
   display: flex;
