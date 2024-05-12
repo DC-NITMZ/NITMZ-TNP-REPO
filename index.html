@@ -39,50 +39,59 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link rel="manifest" href="manifest.json" />
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  
+  
 </head>
 
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center justify-content-between">
-      <h1 class="logo">
-        <a href="index.html" class="logo"><img style="width: 60px; height: auto;" src="assets/img/logo.webp"
-            alt="NIT Mizoram Logo" class="img-fluid">
-          <a href="index.html">Training & Placement Cell, <span>NIT Mizoram</span></a>
-      </h1>
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li class="dropdown"><a href="#about"><span>About Us</span><i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a class="nav-link scrollto" href="#team">Team</a></li>
-              <li><a class="nav-link scrollto" href="#clients">Training & Recruiting Partners</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#atAGlance"><span>At A Glance</span><i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a class="nav-link scrollto" href="#atAGlance">News and Events</a></li>
-              <li><a class="nav-link scrollto" href="#atAGlance">Campus Drive</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#testimonials"><span>Placement Highlights</span> <i
-                class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a class="nav-link" href="">Selected Students</a></li> <!--*********-->
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
-        </ul>
-        <div>
-          <a class="nav-link" href=""><img style="width: 60px; height: auto;"
-              src="assets/img/Azadi ka Arit Mohtsav.webp" alt=""></a>
+  <!-- ======= Header ======= -->
+  <header id="header"  >
+    <div class="shadow-md w-full bg-[#fdffde] border-b-4 border-green-400">
+        <div class="flex flex-col lg:justify-evenly">
+            <div class="md:flex flex justify-between md:p-4 lg:justify-around">
+                <div class="flex sm:flex-row justify-around pl-4">
+                    <img src="https://www.vidyavision.com/CollegeUploads/Logos/2017-23-5-16-27-56_nit-mizoram-logo.png" alt="NIT Mizoram Logo" class="self-center mt-4 mr-12 2xl:w-44 2xl:h-44 lg:h-32 sm:h-32 sm:w-32 h-16 w-16 lg:ml-4">
+                </div>
+                <div class="flex flex-col lg:flex-row items-center text-center justify-between mt-4 px-4 lg:mt-0 lg:px-8">
+                    <div class="justify-between">
+                        <p class="text-slate-600 lg:font-bold md:font-bold font-md lg:text-xl 2xl:text-2xl md:text-xl sm:text-lg text-xs">प्रशिक्षण एवं नियोजन कार्यालय</p>
+                        <p class="text-slate-600 lg:font-bold md:font-bold font-md lg:text-xl 2xl:text-2xl md:text-xl lg:text-md text-xs">Training And Placement Office</p>
+                        <p class="lg:text-md text-10px font-thin lg:font-bold md:font-semibold 2xl:text-2xl md:text-xl text-xs">National Institute of Technology, Mizoram</p>
+                        <p class="text-black lg:font-medium text-8px lg:text-sm 2xl:text-lg md:text-sm  lg:mt-2 mb-2 mx-2 lg:mx-4 font-extralight text-[10px]">(An Institution of National Importance under the Ministry of Education,Govt.of India)</p>
+                    </div>
+                </div>
+                <div class="lg:flex lg:justify-end">
+                    <img src="assets/img/clients/g20.png" alt="Image " class="h-10 w-10 mr-4 lg:h-44 lg:flex lg:w-44 hidden">
+                    <img src="assets/img/clients/unnamed.png" class="justify-self-center self-center lg:mt-4 mt-8 lg:mx-4 h-20 w-24 lg:h-44 lg:w-44 pr-2 pb-2 h-10 w-10 sm:h-32 sm:w-32">
+                </div>
+            </div>
         </div>
-        <i class="bi bi-list mobile-nav-toggle"></i>
+        <nav>
+        <div class="w-full md:flex md:items-center md:justify-between md:w-auto">
+            <div class="sm-8 md:w-full w-full py-2 justify-evenly text-white lg:font-md font-extralight text-xs lg:p-1 lg:text-sm md:text-sm flex bg-[#43920D] md:h-12 flex-wrap">
+              <a href="#"><p class="mx-1 text-[2vw] md:text-lg text-white">Home</p></a> 
+                <a href="#clients" class=" hover:font-semibold"><p class="mx-1 text-[2vw] md:text-lg text-white">Past Recruiters</p></a> 
+                <a href="#clients" class=" hover:font-semibold"> <p class="mx-1 text-[2vw] md:text-lg text-white">Training</p></a> 
+                
+                <a href="#atAGlance" class=" hover:font-semibold"> <p class="mx-1 text-[2vw] md:text-lg text-white">At A Glance</p></a> 
+                 
+                
+                <a href="#clients" class=" hover:font-semibold">  <p class="mx-1 text-[2vw] md:text-lg text-white">Why recruit us</p></a> 
+              
+                <a href="#team" class="hover:text-pink-300 hover:font-semibold"><p class="mx-1 text-[2vw] md:text-lg text-white">Team</p></a> 
+                <a href="#team" class="hover:text-pink-300 hover:font-semibold"><p class="mx-1 text-[2vw] md:text-lg text-white">Facilities</p></a> 
+                <a  href="#contact" class="hover:text-green-200 hover:font-semibold"><p  class="mx-1 text-[2vw] md:text-lg text-white">Contact Us </p> </a>
+            </div>
+        </div>
       </nav>
-      <!-- navbar -->
     </div>
-  </header><!-- End Header -->
+  </header>
+  <!-- heAder -->
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
